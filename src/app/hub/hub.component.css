@@ -1,0 +1,41 @@
+
+.dot {
+    opacity: 70%;
+    height:50vh;
+    width: 50vh;
+    margin: 0px 40px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+.people {
+    height:30vh;
+    width: 30vh;
+    margin: 50px 65px;
+    display: flex;
+}
+
+.calendar {
+    height:50vh;
+    width: 50vh;
+    margin: 0px 10px;
+    display: flex;
+}
+
+#right
+{
+    background-color:#F0A830;
+}
+#left
+{
+    background-color:#F07818;
+}
+
+#left:hover,
+#right:hover {
+    opacity:85%;
+}
+
+.dots {
+    text-align: center;
+}

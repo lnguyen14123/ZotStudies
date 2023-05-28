@@ -1,0 +1,26 @@
+<link rel="stylesheet" href="log-in.component.css">
+
+<h1 class="header">Log-in</h1>
+
+
+<div class="greeting">
+    <p>It's grind time!</p>
+</div>
+
+<form id = "login">
+<div class="logincontainer">
+    <div class="loginline">
+        <label for="username">username:</label>
+        <input class = "prettyopt" type="text" id="username" name="username" placeholder="ex. venus23">
+    </div>
+    <div class="loginline">
+        <label for="password">password:</label>
+        <input class = "prettyopt" type="password" id="password" name="password" placeholder="••••••" >
+    </div>
+</div>
+<nav class="center">
+    <a routerLink="/hub" routerLinkActive="active">
+        <input class="save" type="button" value="Submit" name = "submit">
+    </a>
+</nav>
+</form>

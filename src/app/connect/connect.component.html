@@ -1,0 +1,34 @@
+<link rel="stylesheet" href="connect.component.css">
+
+<h1 class="header">Select your preferences</h1>
+
+<form id="login">
+    <div class="logincontainer">
+        <div class="loginline">
+            <label for="study location">study location:</label>
+            <select class="pretty" name="locations" id="locations">
+                <option class="prettyopt" value="Zoom">Zoom</option>
+                <option class="prettyopt" value="In-person">In-person</option>
+            </select>
+        </div>
+        <div class="loginline">
+            <label for="times available">start time:</label>
+            <input class="pretty" type="time" id="time" name="time" required>
+        </div>
+        <div class="loginline">
+            <label for="numstudy">number of people:</label>
+            <select class="pretty" name="numstudy" id="numstudy">
+                <option class="prettyopt" value="1">1</option>
+                <option class="prettyopt" value="2">2</option>
+                <option class="prettyopt" value="3">3</option>
+                <option class="prettyopt" value="4+">4+</option>
+            </select>
+        </div>
+    </div>
+
+    <nav class="center">
+        <a routerLink="/chat" routerLinkActive="active">
+            <input class="save" type="button" value="Submit" name="submit">
+        </a>
+    </nav>
+</form>

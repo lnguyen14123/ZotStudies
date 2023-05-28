@@ -1,0 +1,14 @@
+[
+    {
+      "id": "31798fa7-92b8-4476-8d70-0a9bcfcdfdfe",
+      "email": "test@uci.edu",
+      "username": "Test Test",
+      "password": "test123"
+    },
+    {
+      "id": "d3e7d94e-b171-473f-a7f6-8f569208093a",
+      "email": "test2@uci.edu",
+      "username": "Test2 Test2",
+      "password": "test123456"
+    }
+]
